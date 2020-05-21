@@ -88,14 +88,61 @@ export const App = () => {
 
       <div className="second-layout">
       <div className="second-layout-first">
-          ffdf
+
+          <div className="second-layout-first-half">
+             <div className="second-layout-first-half-top">
+
+             </div>
+            <div className="second-layout-first-half-middle">
+         <h1> Flash Sale</h1>
+            </div>
+            <div className="second-layout-first-half-bottom">
+
+            </div>
+          </div>
+        <div className="second-layout-first-otherHalf">
+
+        </div>
       </div>
-        <div className="second-layout-second">
-          bvbxb
+
+        <div className="second-layout-sec">
+
+          <div className="second-layout-first-half">
+            <div className="second-layout-first-half-top">
+
+            </div>
+            <div className="second-layout-first-half-middle">
+              <h1> Flash Sale</h1>
+            </div>
+            <div className="second-layout-first-half-bottom">
+
+            </div>
+          </div>
+          <div className="second-layout-first-otherHalf">
+
+          </div>
         </div>
-        <div className="second-layout-third">
-          gfg
+
+        <div className="second-layout-th">
+
+          <div className="second-layout-first-half">
+            <div className="second-layout-first-half-top">
+
+            </div>
+            <div className="second-layout-first-half-middle">
+              <h1> Flash Sale</h1>
+            </div>
+            <div className="second-layout-first-half-bottom">
+
+            </div>
+          </div>
+          <div className="second-layout-first-otherHalf">
+
+          </div>
         </div>
+
+
+
       </div>
 
       <div className="trending-collection">
@@ -103,7 +150,33 @@ export const App = () => {
       </div>
 
       <div className="cards-layout">
+       <div className="single-card">
+         <div className="img-area">
 
+         </div>
+         <div className="img-text">
+           <span className="header-text"><strong>product one</strong></span>
+           <p>lorem ipsum is a dead man</p>
+         </div>
+       </div>
+        <div className="single-card">
+          <div className="img-area">
+
+          </div>
+          <div className="img-text">
+            <span className="header-text"><strong>product two</strong></span>
+            <p>lorem ipsum is a dead man</p>
+          </div>
+        </div>
+        <div className="single-card">
+          <div className="img-area">
+
+          </div>
+          <div className="img-text">
+            <span className="header-text"><strong>product three</strong></span>
+            <p>lorem ipsum is a dead man</p>
+          </div>
+        </div>
       </div>
     </div>
   );
