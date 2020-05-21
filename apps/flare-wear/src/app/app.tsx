@@ -71,7 +71,13 @@ export const App = () => {
 
              </div>
              <div className="hero-left-middle">
+               <div className="hero-text">
+                  <h2>2020 feels good </h2>
+                   <h1>Doesn't it?</h1>
 
+
+               </div>
+               <button className="hero-button">Show More</button>
              </div>
              <div className="hero-left-last">
 

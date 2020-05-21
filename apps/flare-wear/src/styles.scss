@@ -52,7 +52,11 @@ background: azure;
   cursor: pointer;
 
 }
+.hero-left-middle button:hover{
+  background: #9978ec;
+  cursor: pointer;
 
+}
 .sales-button button{
   margin-top: 5px;
 
@@ -145,6 +149,24 @@ background: azure;
    flex: 3;
   color: black;
 }
+.hero-button{
+  width: 20%;
+  height: 20%;
+  margin-top: 2px;
+  background: #fe19be;
+  border-right-width: 0px;
+  border-radius: 7px;
+
+
+  color: white;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.hero-text{
+  color: #551a8b;
+  display: flex;
+  flex-direction: column;
+}
 .hero-left{
   flex: 1;
   display: flex;
@@ -157,6 +179,9 @@ background: azure;
  }
 .hero-left-middle{
   flex: 2;
+   font-size: 56px;
+  font-family: serif;
+  font-weight: 700;
  }
 .hero-left-last{
   flex: 1;
