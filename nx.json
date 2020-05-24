@@ -25,6 +25,13 @@
     "flare-wear-e2e": {
       "tags": [],
       "implicitDependencies": ["flare-wear"]
+    },
+    "tumeric": {
+      "tags": []
+    },
+    "tumeric-e2e": {
+      "tags": [],
+      "implicitDependencies": ["tumeric"]
     }
   }
 }
